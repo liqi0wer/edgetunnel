@@ -3,6 +3,6 @@ main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"          #KV绑定名默认不可修改（与 _worker.js 中 env.KV 对应）
+id = "344ff5f05eb14dbca311b48b659b7a5c"   #KV命名空间ID（Cloudflare 控制台 → Workers & Pages → KV）
